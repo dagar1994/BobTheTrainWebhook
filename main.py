@@ -441,7 +441,7 @@ Sorry, I could not find a track by that name. Say , play all to play all the son
             Sorry, there is some problem
           </audio>
         <break time="1000ms"/>
-        Would you like to play a quiz now?
+        Would you like to play the quiz now?
         </speak>
                         """
     return ask(speech)
@@ -463,7 +463,7 @@ Playing """ + tracksData["1"]["name"] + """ .
     Sorry, there is some problem
   </audio>
 <break time="1000ms"/>
-Would you like to play a quiz now?
+Would you like to play the quiz now?
 </speak>
                 """
     return ask(speech)
@@ -600,7 +600,7 @@ Now Playing """ + tracksData[currentTrack]["name"] + """ .
     Sorry, there is some problem
   </audio>
 <break time="1000ms"/>
-Would you like to play a quiz now?
+Would you like to play the quiz now?
 
 </speak>
                 """
@@ -654,7 +654,7 @@ def hello_world():
             Sorry, there is some problem
           </audio>
         <break time="1000ms"/>
-        Would you like to play a quiz now?
+        Would you like to play the quiz now?
 
         </speak>
                         """
@@ -702,7 +702,7 @@ Now Playing """ + tracksData[currentTrack]["name"] + """ .
     Sorry, there is some problem
   </audio>
 <break time="1000ms"/>
-Would you like to play a quiz now?
+Would you like to play the quiz now?
 
 </speak>
                 """
@@ -762,7 +762,7 @@ Oops, the correct answer is, """ + answer
     Sorry, there is some problem
   </audio>
 <break time="1000ms"/>
-Would you like to play a quiz now?
+Would you like to play the quiz now?
 
 </speak>
                 """
@@ -803,7 +803,7 @@ Now Playing """ + tracksData[newTrack]["name"] + """ .
     Sorry, there is some problem
   </audio>
 <break time="1000ms"/>
-Would you like to play a quiz now?
+Would you like to play the quiz now?
 
 </speak>
                 """
