@@ -392,7 +392,7 @@ def hello_world():
     speech = """
 <speak>
 <audio src="https://s3.amazonaws.com/bobthetraincanatech/Hi+Kids+I_m+Bob.mp3">
-    <desc>Bob the train intro sound</desc>
+    <desc>Welcome to Bob The Train Songs</desc>
     Hi Kids, I am Bob
   </audio>
 <break time="1000ms"/>
